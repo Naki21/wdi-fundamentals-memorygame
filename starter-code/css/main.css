@@ -1,16 +1,58 @@
-body{
+
+nav {
+	background: #808080;
 	text-align: center;
 }
-h1{
-  color: rgb(2, 132, 130);
+nav a {
+	text-decoration: none;
+	background-color: #ffbf00;
+	color: white;
+	padding: 35px;
+	display: inline-block;
+	float: left;
 }
-h2{
-  color: #ffd700;
+nav a:hover {
+	background-color: #ee5f3c;
+}
+h1 {
+	color: rgb(2, 132, 130);
+	text-align: center;
+}
+h2 {
+	color: #ffd700;
+	text-align: center;
+
+}
+h3 {
+	text-align: center;
+
+}
+footer{
+	clear: both;
+	background-color: #808080;
+	text-align: center;
+}
+.wrapper{
+	width: 50%;
+}
+.line{
+	border-bottom: solid #808080 2px;
+	padding-top: 5px;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
 }
 .board{
-	height: 80%;
+	height: 50%;
 	width: 50%;
 	display: inline-block;
+	float: left;
+	margin: 8%;
 }
 .card{
 	height: 200px;
@@ -18,6 +60,9 @@ h2{
 	border: solid black 1px;
 	background-color: #ffff00;
 	border-radius: 10px;
+	display: inline-block;
+	float: left;
+	margin: 6%;
 }
 .name {
 	color: #ff0000;
