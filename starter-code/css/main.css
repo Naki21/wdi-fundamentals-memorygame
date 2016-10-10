@@ -1,4 +1,10 @@
-
+img {
+	height: 200px;
+	width: 150px;
+	border: solid black 1px;
+	background-color: #ffff00;
+	border-radius: 10px;
+}
 nav {
 	background: #808080;
 	text-align: center;
